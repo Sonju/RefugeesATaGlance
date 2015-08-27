@@ -1,0 +1,16 @@
+INSERT INTO refugees (country_of_origin, territory_country_of_asylum, refugees, year) VALUES
+('Cuba', 'United States', 101, '2000'),
+('Cuba', 'United States', 140, '2001'),
+('Cuba', 'United States', 160, '2002'),
+('Cuba', 'United States', 175, '2003'),
+('Cuba', 'United States', 189, '2004'),
+('Cuba', 'United States', 200, '2005'),
+('Cuba', 'United States', 220, '2006'),
+('Cuba', 'United States', 289, '2007'),
+('Cuba', 'United States', 330, '2008'),
+('Cuba', 'United States', 355, '2009'),
+('Cuba', 'United States', 380, '2010'),
+('Cuba', 'United States', 550, '2011'),
+('Cuba', 'United States', 503, '2012'),
+('Cuba', 'United States', 600, '2013'),
+('Cuba', 'United States', 660, '2014');
