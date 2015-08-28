@@ -1,5 +1,8 @@
 class RefugeesController < ApplicationController
 
+
+
+
   def list
     # return all refugees in an []
     @refugees = Refugee.all

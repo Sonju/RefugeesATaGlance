@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'home/index'
+
   # http://docs.railsbridge.org/intro-to-rails/setting_the_default_page
   # root - or landing page
   root 'refugees#list'
@@ -19,5 +21,8 @@ Rails.application.routes.draw do
 
  ## DESTROY
   delete 'api/refugees/:id' => 'refugees#destroy'
+
+  ## home
+  get 'home' => 'home#index'
 
 end
