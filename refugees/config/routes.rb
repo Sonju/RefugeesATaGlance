@@ -4,23 +4,23 @@ Rails.application.routes.draw do
   root 'home#index'
 
   ## REST api
-  # LIST all refugees in an []
+# LIST all refugees in an []
   get 'api/refugees' => 'refugees#list'
 
-  ## READ  #retrieve individual refugees in list by id
+## READ  to retrieve individual refugees in list by id
   get 'api/refugees/:id' => 'refugees#read'
 
- ## CREATE  #to create refugees
+## CREATE  to create refugees
   post 'api/refugees' => 'refugees#create'
 
-  ## UPDATE #to updae refugees
+## UPDATE to updae refugees
   patch 'api/refugees/:id' => 'refugees#update'
   put 'api/refugees/:id' => 'refugees#update'
 
- ## DESTROY
+## DESTROY
   delete 'api/refugees/:id' => 'refugees#destroy'
 
-  ## views
 
+### VIEWS
   get 'home' => 'home#index'
 end

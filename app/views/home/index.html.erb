@@ -1,13 +1,28 @@
 <script type="text/javascript" id="refugee-template">
- <li><strong>Country of Origin<strong></li> <%% @country_of_origin %>;
 
-
+  <table id="">
+    <tr>
+      <th>Country of Origin<strong</th>
+      <th><strong</th>
+      <th>Country of Origin<strong</th>
+      <th>Country of Origin<strong</th>
+    </tr>
+      <td><%%= country_of_origin %></td>
+      <td><%%= territory_country_of_asylum %></td>
+      <td><%%= refugees %></td>
+      <td><%%= year %></td>
+ </table>
 </script>
 
-<h1>Refugees API</h1>
+<h1>World Refugees API</h1>
 
-<p>You can help refugees by going to: <a href=""> </p>
+<p>Refugees and Asylum Updates<a href="http://www.amnestyusa.org/our-work/issues/refugee-and-migrant-rights/refugees-and-asylum"></p>
+<p>Donate NOW<a href="http://www.amnestyusa.org/donate-to-amnesty"></p>
 <hr />
+
+ <ul id="refugee-list">
+   <!-- Backbone collection will fill this $el -->
+ </ul>
 
 <script type="text/javascript">
   var global = global || {};
