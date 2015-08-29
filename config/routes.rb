@@ -1,28 +1,26 @@
 Rails.application.routes.draw do
-  get 'home/index'
-
   # http://docs.railsbridge.org/intro-to-rails/setting_the_default_page
   # root - or landing page
-  root 'refugees#list'
+  root 'home#index'
 
   ## REST api
-  # LIST all refugees in an []
+# LIST all refugees in an []
   get 'api/refugees' => 'refugees#list'
 
-  ## READ  #retrieve individual refugees in list by id
+## READ  to retrieve individual refugees in list by id
   get 'api/refugees/:id' => 'refugees#read'
 
- ## CREATE  #to create refugees
+## CREATE  to create refugees
   post 'api/refugees' => 'refugees#create'
 
-  ## UPDATE #to updae refugees
+## UPDATE to update refugees
   patch 'api/refugees/:id' => 'refugees#update'
   put 'api/refugees/:id' => 'refugees#update'
 
- ## DESTROY
+## DESTROY
   delete 'api/refugees/:id' => 'refugees#destroy'
 
-  ## home
-  get 'home' => 'home#index'
 
+### VIEWS
+  get 'home' => 'home#index'
 end
