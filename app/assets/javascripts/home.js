@@ -3,7 +3,7 @@
 
 // #refugee-template
 // #refugee-list
-// declare namespace
+// namespace for application
   var app = app || {};
   var active = active || {};
 
@@ -18,8 +18,16 @@
 
   // 2nd create Colletion initialize function
   app.collection = Backbone.Collection.extend({
+    url: '/api/refugees',
+    model: refugee.model,
     initialize: function() {
       console.log('A collection has been instantiated');
+      // fetch once this is loaded!
+      this.fetch();
+      this.no('change', function() {
+        // keeping my collection up to date with the server
+          this.fetch();
+      });
     }
   });
 
@@ -28,7 +36,9 @@
     initialize: function() {
       // every modelView should have a model
       // this.model
-      this.template = _.template($('#refugee-template').html);
+      this.$el = $('#refugee-list');
+      this.template = _.template($('#refugee-template').html());
+      this.render();
       console.log(this.template);
     },
     render: function() {
@@ -38,24 +48,35 @@
   });
 
 // 4th create collectionView and initialize and render function
+// our collectionView is sort of liike a controller... it is the * in MV*
   app.collectionView = Backbone.View.extend({
     initialize: function() {
     console.log('A collectionView has been instantiated');
+
+    this.$el = $('#refugee-list');
+    // render it!
+      this.render();
       var that == this;
     // every collectionView should have a collection
-    this.collection.('sync', function() {
+    this.collection.on('sync', function() {
       that.render();
     });
     // retrieve data from my API 'all get' route
       this.collection.fetch();
       this.$el.html('');  // empty out any content inside the $el
     },
+
     render: function() {
 
-      var collection = this.collection.models;
+      this.$el.html('');
+
+      var models = this.collection.models;
 
       for (var model in collection) {
-        console.log(collection[model].attributes);
+        var data = models[m];
+        new refugee.modelView({
+            model: data
+        });
       }
     }
   });
