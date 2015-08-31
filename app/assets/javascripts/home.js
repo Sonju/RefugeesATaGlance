@@ -10,7 +10,7 @@
 // Blueprints for Models, Collections and Views
 // app namesapce
 // 1st create model and initialize function
-  app.model = Backbone.Model.extend ({
+  app.model = Backbone.Model.extend({
     initialize: function() {
     console.log('A model has been instantiated'); // 5th console.log output to Debug
     }
@@ -19,12 +19,12 @@
   // 2nd create Colletion initialize function
   app.collection = Backbone.Collection.extend({
     url: '/api/refugees',
-    model: refugee.model,
+    model: app.model,
     initialize: function() {
       console.log('A collection has been instantiated');
       // fetch once this is loaded!
       this.fetch();
-      this.no('change', function() {
+      this.on('change', function() {
         // keeping my collection up to date with the server
           this.fetch();
       });
@@ -56,7 +56,7 @@
     this.$el = $('#refugee-list');
     // render it!
       this.render();
-      var that == this;
+      var that = this;
     // every collectionView should have a collection
     this.collection.on('sync', function() {
       that.render();
@@ -70,11 +70,11 @@
 
       this.$el.html('');
 
-      var models = this.collection.models;
+      var collection = this.collection.models;
 
       for (var model in collection) {
-        var data = models[m];
-        new refugee.modelView({
+        var data = collection[model];
+        new app.modelView({
             model: data
         });
       }
@@ -89,7 +89,7 @@
   $(document).ready(function(event) {
     active.collection = new app.collection();
     active.collectionView = new app.collectionView({
-      collection: active.collection
+      collection: active.collection,
       el: $('refugee-list')
     });
 
