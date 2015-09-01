@@ -1,6 +1,4 @@
 #table-image {
-  background-repeat: round;
-  background-size: cover;
   margin: 0;
   padding: 0; }
 
@@ -8,14 +6,11 @@ h1 {
   text-align: center; }
 
 p {
-  text-align: center;
-  font-style: italic; }
-
-span {
   text-align: center; }
 
 #headline {
-  background-color: #cfa71c;
+  background-image: image-url("kobani_camp.png");
+  background-size: cover;
   margin: 0;
   padding: 0; }
 

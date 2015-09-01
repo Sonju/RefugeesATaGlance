@@ -3,45 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
   </head>
   <body>
-    <script type="text/template" id="refugee-template">
-
-      <div id="table-image" class="table-responsive">
-          <table class="table table-striped">
-            <tr>
-              <th>Country of Origin</th>
-              <th>Territory/Country Asylum</th>
-              <th>Refugees</th>
-              <th>Year</th>
-            </tr>
-            <tr>
-              <td><%%= country_of_origin %></td>
-              <td><%%= territory_country_of_asylum %></td>
-              <td><%%= refugees %></td>
-              <td><%%= year %></td>
-            <tr/>
-         </table>
-       </div>
-    </script>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
     <div id="headline">
       <h1>World Refugee API</h1>
 
       <p><a href="http://www.unhcr.org/cgi-bin/texis/vtx/home">Read the lastst refugee and asylum updates</a></p>
 
-      <span id="donate-button"><a href="http://www.amnestyusa.org/donate-to-amnesty"><button class='btn btn-info'>Donate Now</button></a></span>
+      <p><a href="http://www.amnestyusa.org/donate-to-amnesty"><button class='btn btn-info'>Donate Now</button></a></p>
 
-      <hr />
     </div>
       <hr />
+      <script type="text/template" id="refugee-template">
+
+              <tr>
+                <td><%%= country_of_origin %></td>
+                <td><%%= territory_country_of_asylum %></td>
+                <td><%%= refugees %></td>
+                <td><%%= year %></td>
+              <tr/>
+
+      </script>
+
+        <div>
+          <table class="table table-striped">
+              <thead>
+                  <tr>
+                      <th>Country of Origin</th>
+                          <th>Territory/Country Asylum</th>
+                          <th>Refugees</th>
+                          <th>Year</th>
+                  </tr>
+              </thead>
+              <tbody id="refugee-list">
+                <!-- Backbone collection will fill this $el -->
+              </tbody>
+        </table>
+      </div>
 
 
-     <ul id="refugee-list">
-       <!-- Backbone collection will fill this $el -->
-     </ul>
 
     <script type="text">
       var global = global || {};

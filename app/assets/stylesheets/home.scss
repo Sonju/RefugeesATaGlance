@@ -2,9 +2,9 @@
 // They will automatically be included in application.css.
 
   #table-image {
-    // background: url(<%= asset_data_uri 'kobani_camp.png' %>);
-    background-repeat: round;
-    background-size: cover;
+
+    // background-repeat: round;
+
     margin: 0; // set as 0 to overide the chrome browser default margin
     padding: 0; // set as 0 to overide the chrome browser default margin
   }
@@ -16,15 +16,12 @@
 
   p {
     text-align: center;
-    font-style: italic;
   }
 
-  span {
-    text-align: center;
-  }
 
     #headline {
-      background-color: rgba(207, 167, 28, 1);
+      background-image: image-url('kobani_camp.png');
+      background-size: cover;
       margin: 0; // set as 0 to overide the chrome browser default margin
       padding: 0; // set as 0 to overide the chrome browser default margin
 
