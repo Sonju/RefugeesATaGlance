@@ -9,11 +9,12 @@
   </head>
   <body>
     <div id="headline">
+
       <h1>World Refugee API</h1>
 
       <p><a href="http://www.unhcr.org/cgi-bin/texis/vtx/home">Read the lastst refugee and asylum updates</a></p>
 
-      <p><a href="http://www.amnestyusa.org/donate-to-amnesty"><button class='btn btn-info'>Donate Now</button></a></p>
+      <p><a href="http://www.amnestyusa.org/donate-to-amnesty"><button class='btn btn-info'>Donate $ Now</button></a></p>
 
     </div>
       <hr />
@@ -29,16 +30,16 @@
       </script>
 
         <div>
-          <table class="table table-striped">
+          <table class="table table-hover">
               <thead>
                   <tr>
                       <th>Country of Origin</th>
-                          <th>Territory/Country Asylum</th>
+                          <th>Territory/Country of Asylum</th>
                           <th>Refugees</th>
                           <th>Year</th>
                   </tr>
               </thead>
-              <tbody id="refugee-list">
+              <tbody id="refugee-list" >
                 <!-- Backbone collection will fill this $el -->
               </tbody>
         </table>
@@ -50,5 +51,7 @@
       var global = global || {};
       global.apiKey = '<%= @key %>';
     </script>
+
+    <footer> Created by @SonjuW.</footer>
   </body>
 </html>

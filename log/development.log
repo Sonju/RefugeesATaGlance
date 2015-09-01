@@ -20535,3 +20535,1755 @@ Started GET "/api/refugees" for ::1 at 2015-09-01 11:38:44 -0500
 Processing by RefugeesController#list as JSON
   [1m[36mRefugee Load (0.5ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
 Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:40:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 312ms (Views: 301.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/home.self-ac398d454e5390f77f80d2a73aae2a7860b6aaf335358105636918850e0510df.css?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:40:35 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:40:36 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:40:36 -0500
+
+
+Started GET "/assets/application.css.map" for ::1 at 2015-09-01 11:40:36 -0500
+
+
+Started GET "/assets/home.css.map" for ::1 at 2015-09-01 11:40:36 -0500
+
+
+Started GET "/assets/refugees.css.map" for ::1 at 2015-09-01 11:40:36 -0500
+
+
+Started GET "/assets/underscore-min.map" for ::1 at 2015-09-01 11:40:36 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (98.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (102.2ms)
+
+
+Started GET "/assets/backbone-min.map" for ::1 at 2015-09-01 11:40:36 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/backbone-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.6ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:40:36 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.5ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:40:36 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (1.1ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:45:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 104ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/home.self-b071b942a7c7c60758aabe774be0ecf857396cf3c122722a302ddff838958888.css?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/application.css.map" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/home.css.map" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/refugees.css.map" for ::1 at 2015-09-01 11:45:22 -0500
+
+
+Started GET "/assets/underscore-min.map" for ::1 at 2015-09-01 11:45:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (95.4ms)
+
+
+Started GET "/assets/backbone-min.map" for ::1 at 2015-09-01 11:45:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/backbone-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (94.1ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:45:23 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:45:23 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:45:42 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/home.self-b071b942a7c7c60758aabe774be0ecf857396cf3c122722a302ddff838958888.css?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/application.css.map" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/home.css.map" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/assets/refugees.css.map" for ::1 at 2015-09-01 11:45:42 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:45:42 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (5.8ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 9ms (Views: 2.7ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:45:42 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (1.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/underscore-min.map" for ::1 at 2015-09-01 11:45:42 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (100.9ms)
+
+
+Started GET "/assets/backbone-min.map" for ::1 at 2015-09-01 11:45:43 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/backbone-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:47:30 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/home.self-f47f73f8614060c4bd85778e56f6af0b32fe47d826f068a9a3eb85e885452634.css?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/application.css.map" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/home.css.map" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/refugees.css.map" for ::1 at 2015-09-01 11:47:30 -0500
+
+
+Started GET "/assets/underscore-min.map" for ::1 at 2015-09-01 11:47:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/underscore-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (92.7ms)
+
+
+Started GET "/assets/backbone-min.map" for ::1 at 2015-09-01 11:47:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/backbone-min.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.0ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:47:30 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:47:30 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:49:27 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/home.self-f47f73f8614060c4bd85778e56f6af0b32fe47d826f068a9a3eb85e885452634.css?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:49:27 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:49:27 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:49:27 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:49:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-10fa195dbe83653fc29670d29c67f424e0c6603de4e00dba4d27b13e4bf3415c.css?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:49:51 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:49:51 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.5ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:49:51 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:51:29 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-7d553d528aaa91af42087d475d7c2be7c85e187de74021bd01a6cf89dc5680fd.css?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:51:29 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:51:29 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:51:29 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.5ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:53:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-ce44e1c20d72e92803ad4811f044841ec30f387d9395018edb18866db387d2d6.css?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:53:22 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:53:23 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:53:23 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:53:23 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.5ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:53:40 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/home.self-ce44e1c20d72e92803ad4811f044841ec30f387d9395018edb18866db387d2d6.css?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:53:40 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:53:41 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:53:41 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:53:41 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:53:41 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:53:41 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:53:41 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:53:41 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 11:54:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/home.self-ce44e1c20d72e92803ad4811f044841ec30f387d9395018edb18866db387d2d6.css?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 11:54:36 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:54:36 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 11:54:36 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:03:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (118.6ms)
+Completed 200 OK in 324ms (Views: 315.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-529735a8d9c1a1592056d11e1615c836767d0c8391c423f3a1c80f6ea4116a83.css?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:03:06 -0500
+
+
+Started GET "/images/icon.svg" for ::1 at 2015-09-01 13:03:06 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/icon.svg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.6ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:03:07 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.6ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 17ms (Views: 11.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:03:07 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:03:33 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:03:33 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/home.self-529735a8d9c1a1592056d11e1615c836767d0c8391c423f3a1c80f6ea4116a83.css?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/assets/kobani_camp-495ddffbd075dec9b7e2f151f56fa746cffd239467f1b3967b4401e882032e0d.png" for ::1 at 2015-09-01 13:03:34 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:03:34 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:03:34 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:22:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/home.self-529735a8d9c1a1592056d11e1615c836767d0c8391c423f3a1c80f6ea4116a83.css?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:22:17 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:22:17 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.5ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:22:17 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:25:09 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/home.self-e0152a15eb23bfeea6f596b3b9cf91327457aaef1dda7674ed2b385fc3b0fb11.css?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:25:09 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:25:09 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:25:09 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:25:39 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 123ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/home.self-e056c9540ad5da85f970cc5e53b965ad691f3ecaf14453afd2b9f2c244c9ac77.css?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:25:39 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:25:39 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:25:39 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:26:01 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `start_with?' for nil:NilClass):
+    2: <html>
+    3: <head>
+    4:   <title>Refugees</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: <body>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__574944033946244462_70276981968960'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (99.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:26:15 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/home.self-32403d35d532384b04aa4a6d5f14d01635469519a33497750b17472c781dbb12.css?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:26:15 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:26:15 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:26:15 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:27:32 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 129ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-edea8afd6f501a140f578f9074b5875e59eec08ee28b08c7ee56e64fda6f0341.css?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:27:32 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:27:32 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:27:32 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:38:41 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 130ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-67ede23446148a196bb6d5ced98482c300e50796cbde377db4f8f945b56c6046.css?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:38:41 -0500
+
+
+Started GET "/kobani_camp.png" for ::1 at 2015-09-01 13:38:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/kobani_camp.png"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (76.8ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:38:41 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:38:41 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:39:08 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 114ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-1bfeffb0e34da72e8b54ea2beff6f03f3e93ff9e54214814001a8d2057a303a7.css?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:39:08 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:39:08 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:39:08 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.9ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:39:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `start_with?' for nil:NilClass):
+    2: <html>
+    3: <head>
+    4:   <title>Refugees</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: <body>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__574944033946244462_70276981968960'
+
+
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.9ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/MiTech/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:40:09 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-adbb71a95dbaa7e2d263efdaccb0e206d0a5feca57921525b8d4bbf7f6278568.css?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:40:09 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:40:09 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:40:09 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:41:50 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/home.self-adbb71a95dbaa7e2d263efdaccb0e206d0a5feca57921525b8d4bbf7f6278568.css?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:41:50 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:41:50 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:41:50 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-01 13:42:53 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 115ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-aa2b2135094aa7b76390d510e6c1f9bb2e70938fb1511b5387d0f88aeedbba76.css?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/assets/kobani_camp.png" for ::1 at 2015-09-01 13:42:53 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:42:53 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-01 13:42:53 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)

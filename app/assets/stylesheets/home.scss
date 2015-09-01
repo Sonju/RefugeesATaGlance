@@ -1,13 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 
-  #table-image {
+#headline {
+  height: 300px;
+  background: url("kobani_camp.png");
+  background-size: cover;
+  margin: 0; // set as 0 to overide the chrome browser default margin
+  padding: 0; // set as 0 to overide the chrome browser default margin
 
-    // background-repeat: round;
+}
 
-    margin: 0; // set as 0 to overide the chrome browser default margin
-    padding: 0; // set as 0 to overide the chrome browser default margin
-  }
 
  h1 {
    text-align: center;
@@ -19,10 +21,6 @@
   }
 
 
-    #headline {
-      background-image: image-url('kobani_camp.png');
-      background-size: cover;
-      margin: 0; // set as 0 to overide the chrome browser default margin
-      padding: 0; // set as 0 to overide the chrome browser default margin
-
-    }
+ footer {
+   text-align: center;
+ }

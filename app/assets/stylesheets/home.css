@@ -1,4 +1,7 @@
-#table-image {
+#headline {
+  height: 300px;
+  background: url("kobani_camp.png");
+  background-size: cover;
   margin: 0;
   padding: 0; }
 
@@ -8,10 +11,7 @@ h1 {
 p {
   text-align: center; }
 
-#headline {
-  background-image: image-url("kobani_camp.png");
-  background-size: cover;
-  margin: 0;
-  padding: 0; }
+footer {
+  text-align: center; }
 
 /*# sourceMappingURL=home.css.map */
