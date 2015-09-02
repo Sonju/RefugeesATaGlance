@@ -23,4 +23,8 @@ Rails.application.routes.draw do
 
 ### VIEWS
   get 'home' => 'home#index'
+
+# C3.js chart
+  get '/chart' => 'chart#index'
+  get 'chart/data', :defaults => { :format => 'json'}
 end
