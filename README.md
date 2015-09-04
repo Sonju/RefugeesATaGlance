@@ -2,7 +2,7 @@
 # Global Refugee API
 **An open source tool to display, track or monitor global refugee and asylum data from 2000 to 2014.**
 
-I created the RESTful Refugee API because no functional API currently exist for refugees and asylum seekers. The United Nations High Commissioner for Refugees (UNHCR) refugee and asylum dataset is used because the UN's data collection practices are more or less reliable.
+I created the RESTful Refugee API because there is not a refugee and asylum functional API. I used The United Nations High Commissioner for Refugees (UNHCR) refugee and asylum dataset because the international community believes the UN's data collection practices are reliable.
 ###### Data Source: [UNHCR](http://data.un.org/Data.aspx?d=UNHCR&f=indID:Type-Ref)
 
 #### Technologies Used:
@@ -36,14 +36,14 @@ gem install rails
 
 
 
- Wireframe
+ wireframe
 ![Image](/public/wireframes/API_Wireframe.png)
 
-Background-image
+background-image
 ![Image](/app/assets/images/worldrefugeeday.jpg)
 
-Home Page
+home page
 ![Image](/public/screenshots/home_screen.png)
 
-Data Bar Chart
+data bar chart
 ![Image](/public/screenshots/data_bar_chart.png)
