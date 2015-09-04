@@ -1,6 +1,6 @@
 
 
-      
+
     <style>
 
       text {
@@ -20,8 +20,7 @@
 
     </style>
 
-  </head>
-  <body>
+
 
       <div id="chart1">
           <svg></svg>
@@ -127,11 +126,9 @@
 
         nv.addGraph(function() {
             var chart = nv.models.discreteBarChart()
-                .x(function(d) { return d.year })
-                .y(function(d) { return d.refugees })
-                // .staggerYears(true)
-                // .staggerYears(historicalBarChart[0].values.length > 8)
-                // .showRefugeess(true)
+                .x(function(d) { return d.year })      //Specify the data accessors.
+                .y(function(d) { return d.refugees })   //Specify the data accessors.
+                .showValues(true)    //...instead, show the bar value right on top of each bar.
                 .duration(250)
                 ;
 
