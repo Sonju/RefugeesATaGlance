@@ -26,5 +26,5 @@ Rails.application.routes.draw do
 
 ## D3.js
   get '/graph' => 'graph#index'
-  get 'graph/data', :defaults => { :format => 'json'}
+  # get 'graph/data', :defaults => { :format => 'json'}
 end

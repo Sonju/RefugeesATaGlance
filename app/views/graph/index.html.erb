@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
 
-      <link rel="stylesheet" href="nv.d3.min.css">
-      <script type="text/javascript" src="d3.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-      <script type="text/javascript" src="nv.d3.min.js"></script>
 
+      
     <style>
 
       text {
@@ -133,27 +125,24 @@
           }
         ];
 
-        nv.addGraph(function () {
-          var chart = nv.models.discreteBarChart()
-          .x(function(d) { return d.year })
-          .y(function(d) { return d.refugees })
-          .staggerYears(true)
-          // .staggerYears(historicalBarChart[0].values.length > 8)
-          .showRefugeess(true)
-          .duration(250)
-          ;
+        nv.addGraph(function() {
+            var chart = nv.models.discreteBarChart()
+                .x(function(d) { return d.year })
+                .y(function(d) { return d.refugees })
+                // .staggerYears(true)
+                // .staggerYears(historicalBarChart[0].values.length > 8)
+                // .showRefugeess(true)
+                .duration(250)
+                ;
 
-        d3.select('#chart1 svg')
-          .datum(historicalBarChart)
-          .call(chart);
 
-          nv.utils.windowResize(chart.update);
-            return chart;
+            d3.select('#chart1 svg')
+              .datum(historicalBarChart)
+              .call(chart);
 
+              nv.utils.windowResize(chart.update);
+                return chart;
         });
 
 
       </script>
-
-  </body>
-</html>

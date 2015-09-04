@@ -15,6 +15,10 @@
 //= require turbolinks
 //= require underscore
 //= require backbone
-//= require nv.d3.min
 //= require d3.min
+//= require nv.d3.min
 //= require_tree .
+
+// require_tree . requires everything in the javascript folder
+
+// ** d3.min needs to run before nv.d3.min
