@@ -36,6 +36,137 @@ gem install rails
 
 
 
+nv.d3.js code
+```javascript
+ <script>
+
+  historicalBarChart =
+  [
+    {
+        key: "Cumulative Return",
+        values: [
+
+          {
+
+          "year": "2000",
+          "refugees": 101
+        },
+        {
+          "year": "2001",
+          "refugees": 140
+
+        },
+        {
+
+          "year": "2002",
+          "refugees": 160
+
+        },
+        {
+
+          "year": "2003",
+          "refugees": 175
+
+        },
+        {
+
+          "year": "2004",
+          "refugees": 189
+
+        },
+        {
+
+          "year": "2005",
+          "refugees": 300
+
+        },
+        {
+
+          "year": "2006",
+          "refugees": 220
+
+        },
+        {
+
+          "year": "2007",
+          "refugees": 289
+
+        },
+        {
+          "year": "2008",
+          "refugees": 200
+
+        },
+        {
+
+          "year": "2009",
+          "refugees": 335
+
+        },
+        {
+
+          "year": "2010",
+          "refugees": 380
+
+        },
+        {
+
+          "year": "2011",
+          "refugees": 500
+
+        },
+        {
+
+          "year": "2012",
+          "refugees": 400
+
+        },
+        {
+
+          "year": "2013",
+          "refugees": 600
+
+        },
+        {
+
+          "year": "2014",
+          "refugees": 638
+        }
+      ]
+    }
+  ];
+
+  nv.addGraph(function() {
+      var chart = nv.models.discreteBarChart()
+          .x(function(d) { return d.year })      //Specify the data accessors.
+          .y(function(d) { return d.refugees })   //Specify the data accessors.
+          .showValues(true)    //...instead, show the bar value right on top of each bar.
+          .duration(250)
+          ;
+
+
+      d3.select('#chart1 svg')
+        .datum(historicalBarChart)
+        .call(chart);
+
+
+        d3.select('#chart1 svg')
+          .append("text").style({text: "black", "stroke-width": "4px"})
+          .attr("x", 750).attr("y", 50)
+          .attr("text-anchor", "middle")
+          .text("Number of Cuban Asylum Seekers in U.S. - 2000-2014")
+          ;
+
+
+        nv.utils.windowResize(chart.update);
+          return chart;
+  });
+```
+
+</script>
+
+
+
  wireframe
 ![Image](/public/wireframes/API_Wireframe.png)
 
