@@ -36414,3 +36414,1877 @@ Started GET "/api/refugees" for ::1 at 2015-09-03 20:58:37 -0500
 Processing by RefugeesController#list as JSON
   [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
 Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:12:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 309ms (Views: 299.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:12:37 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:12:37 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (5.7ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 30ms (Views: 9.0ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:12:37 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.5ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/graph" for ::1 at 2015-09-04 09:13:10 -0500
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 93ms (Views: 92.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:13:10 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:13:10 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:13:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 89ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:13:18 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:13:18 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:13:18 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:13:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:13:53 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:13:53 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:13:53 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:14:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:14:14 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:14:14 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:14:14 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:14:22 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 115ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:14:22 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:14:22 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:14:22 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:15:21 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:15:21 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:15:21 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:15:21 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:15:38 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:15:38 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:15:38 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:15:38 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/graph" for ::1 at 2015-09-04 09:16:23 -0500
+Processing by GraphController#index as HTML
+  Rendered graph/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:18:02 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 130ms (Views: 129.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:18:02 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:18:02 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:18:02 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:19:36 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 124ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:19:36 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:19:36 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:19:36 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:19:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:19:46 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:19:46 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:19:46 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:20:17 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:20:17 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:20:17 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:20:17 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:20:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 125ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:20:26 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:20:26 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:20:26 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:21:03 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 121ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:21:03 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:03 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.4ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:03 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.5ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:21:26 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 127ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:21:27 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:27 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:27 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:21:37 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:21:37 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:37 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:37 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:21:54 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:21:54 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:54 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.5ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:21:54 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:22:53 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:22:53 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:22:53 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:22:53 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:23:02 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 125ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:23:02 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:23:02 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:23:02 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:23:18 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:23:18 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:23:18 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:23:18 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:23:34 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 62ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/home.self-63ea4737fdeccb248dedcec1cd0347a16cab4ffd45c0191e3fb2475bd5980ef8.css?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:23:34 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:23:34 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:23:34 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:24:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 309ms (Views: 298.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-21a2a7f2632bc157c985d3fce9573eb8aa589fafa594f5dc4b26202731377391.css?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:24:40 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:24:40 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.8ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 19ms (Views: 10.4ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:24:40 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.7ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:25:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-2cfcd7464445f81ca40b7560c876c45882408e7538a6220ea884383ce6788c8c.css?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:25:13 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:25:13 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:25:13 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:25:41 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-2cfcd7464445f81ca40b7560c876c45882408e7538a6220ea884383ce6788c8c.css?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:25:41 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:25:41 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:25:41 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:26:11 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 136ms (Views: 135.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e447e4dfe5b7318aaf0f3b76f89ab4af72aad56fc92ddce4ee5db73d1ceb363b.css?body=1" for ::1 at 2015-09-04 09:26:11 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:26:11 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:26:12 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:26:12 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:26:12 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:26:24 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 130ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-b8884b2e0a05dbc5be8acc12c4eae847766d42869661af162ccf1a761353dc91.css?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:26:24 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:26:24 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:26:24 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:27:04 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 138ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-585f36f2c5ff21e8b4f7031ce4059861dcea0c24810ff36c52908d1b3e840c3c.css?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:27:04 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:27:04 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:27:04 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:28:28 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 132ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/home.self-a79f86cd76e0c074ab7260f088dc160478ea655ba9204bde43cdb0fff80e4755.css?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:28:28 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:28:29 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:28:29 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:28:29 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.6ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:29:15 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 138ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-bd98d40308bb750bbb4028ca13edbff87f9e75138b465e1ae0642c0af0005bb6.css?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:29:15 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:29:15 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:29:15 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.3ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-04 09:29:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 144ms (Views: 143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-1a6bac7cb44f1869fbb4d1f29e1aa6145b3d504780314585eccae708cc2109ad.css?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/application.self-334dd2cd5b403e31cbd0cce6816130ecc998930a9260778c9eb630ed20eacb47.css?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/nv.d3.min.self-c7aae2d4bcb6fc508a7f7f431cc6570640a2bff8415dfc9e983316748e093cb0.css?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/refugees.self-6198fec76d6614ea2e1c162680b1897f0dfbdc7cc4cdaf8231fa3e2bb8f6adaf.css?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/backbone.self-bfc8d8c6e68a01bfa60bbecea29b97c91c38b33d2f95b5253ef99a70d6125761.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/d3.min.self-4cdf92091ed0cfdd8b862af1c6d4744bd0458e746b92c1bbd5403a1143ecd538.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/nv.d3.min.self-6cb6b266ef5673fc07def7ba569a0721599a41d7e36d6668e3672208c6320db9.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/graph.self-294f590e7cbf8735cc114db7352eb0c68f222ba770f243d97ad6dfd42eaf63b5.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/home.self-f655fffdc00854eaf27b50a3258bb3256562072f0f61cfa1d6271966338972d0.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/refugees.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/application.self-9f493f417f1333de66b0d30170e273c1a52a23f886f7149ee655b6a4d7e1e109.js?body=1" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/assets/worldrefugeeday.jpg" for ::1 at 2015-09-04 09:29:51 -0500
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:29:51 -0500
+Processing by RefugeesController#list as JSON
+  [1m[35mRefugee Load (0.3ms)[0m  SELECT "refugees".* FROM "refugees"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/refugees" for ::1 at 2015-09-04 09:29:51 -0500
+Processing by RefugeesController#list as JSON
+  [1m[36mRefugee Load (0.4ms)[0m  [1mSELECT "refugees".* FROM "refugees"[0m
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.4ms)

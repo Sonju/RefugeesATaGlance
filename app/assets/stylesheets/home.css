@@ -1,5 +1,5 @@
 #headline {
-  height: 300px;
+  height: 200px;
   background-image: url("worldrefugeeday.jpg");
   background-size: cover;
   margin: 0;
@@ -10,6 +10,14 @@ h1 {
 
 p {
   text-align: center; }
+
+#barChart {
+  text-align: center;
+  font-size: 2rem;
+  colo: #dec458; }
+
+a {
+  color: green; }
 
 footer {
   text-align: center; }
