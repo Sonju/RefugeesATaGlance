@@ -1,5 +1,5 @@
 #headline {
-  height: 200px;
+  height: 250px;
   background-image: url("worldrefugeeday.jpg");
   background-size: cover;
   margin: 0;
@@ -17,10 +17,6 @@ p {
   margin-right: 210px;
   font-size: 1.5rem;
   text-decoration: underline;
-  color: #dec458;
-  color: inherit; }
-
-a {
   color: #dec458;
   color: inherit; }
 
