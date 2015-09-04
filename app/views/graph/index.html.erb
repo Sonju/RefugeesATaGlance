@@ -65,7 +65,7 @@
               {
 
                 "year": "2005",
-                "refugees": 200
+                "refugees": 300
 
               },
               {
@@ -82,7 +82,7 @@
               },
               {
                 "year": "2008",
-                "refugees": 330
+                "refugees": 200
 
               },
               {
@@ -106,7 +106,7 @@
               {
 
                 "year": "2012",
-                "refugees": 550
+                "refugees": 400
 
               },
               {
@@ -136,6 +136,15 @@
             d3.select('#chart1 svg')
               .datum(historicalBarChart)
               .call(chart);
+
+
+              d3.select('#chart1 svg')
+                .append("text").style({text: "black", "stroke-width": "4px"})
+                .attr("x", 750).attr("y", 50)
+                .attr("text-anchor", "middle")
+                .text("Number of Cuban Asylum Seekers in U.S. - 2000-2014")
+                ;
+
 
               nv.utils.windowResize(chart.update);
                 return chart;
