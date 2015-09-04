@@ -24,19 +24,20 @@
   #chartLink {
     font-family: "Verdana", "Arial Black", sans-serif;
     text-align: right;
-    margin-right: 160px;
+    margin-right: 170px;
     font-size: 1.4rem;
     // text-decoration: underline;
   }
 
   #chartLabel:visited {
-    color: rgb(98, 215, 198) !important; // !important overrides all other styling like bootstrap
+    color: rgb(123, 190, 180) !important; // !important overrides all other styling like bootstrap
     font-weight: bold;
   }
 
 
  footer {
   // font-family: "Verdana", "Arial Black", sans-serif;
+  font-size: 1rem;
    text-align: center;
    font-style: italic;
  }

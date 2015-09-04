@@ -14,14 +14,15 @@ p {
 #chartLink {
   font-family: "Verdana", "Arial Black", sans-serif;
   text-align: right;
-  margin-right: 160px;
+  margin-right: 170px;
   font-size: 1.4rem; }
 
 #chartLabel:visited {
-  color: #62d7c6 !important;
+  color: #7bbeb4 !important;
   font-weight: bold; }
 
 footer {
+  font-size: 1rem;
   text-align: center;
   font-style: italic; }
 
