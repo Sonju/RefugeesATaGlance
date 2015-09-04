@@ -5,14 +5,16 @@
   height: 250px;
   background-image: url("worldrefugeeday.jpg");
   background-size: cover;
-  margin: 0; // set as 0 to overide the chrome browser default margin
-  padding: 0; // set as 0 to overide the chrome browser default margin
+  margin-top: 50px;
+  // margin: 0; // set as 0 to overide the chrome browser default margin
+  // padding: 0; // set as 0 to overide the chrome browser default margin
 
 }
 
 
  h1 {
    text-align: center;
+   margin-top: 20px;
 
  }
 
