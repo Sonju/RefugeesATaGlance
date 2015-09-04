@@ -21,15 +21,16 @@
   }
 
   #barChart {
-    text-align: center;
-    font-size: 2rem;
-    colo: rgb(222, 196, 88);
-
-
+    text-align: right;
+    margin-right: 210px;
+    font-size: 1.75rem;
+    color: rgb(222, 196, 88);
+    color: inherit;
   }
 
-  a {
-    color: green;
+   a {
+    color: rgb(222, 196, 88);
+    color: inherit;
   }
 
 

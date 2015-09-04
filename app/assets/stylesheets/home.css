@@ -12,12 +12,15 @@ p {
   text-align: center; }
 
 #barChart {
-  text-align: center;
-  font-size: 2rem;
-  colo: #dec458; }
+  text-align: right;
+  margin-right: 210px;
+  font-size: 1.75rem;
+  color: #dec458;
+  color: inherit; }
 
 a {
-  color: green; }
+  color: #dec458;
+  color: inherit; }
 
 footer {
   text-align: center; }
