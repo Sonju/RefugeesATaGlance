@@ -7,10 +7,12 @@ I created the RESTful Refugee API because no functional API currently exist for 
 
 #### Technologies Used:
 1. Bootstrap
-2. Postgress
-2. Backbone
-3. Underscore
-4. Ruby on Rails
+2. SASS
+3. Postgress
+4. Backbone.js
+5. Underscore.js
+6. D3.js
+7. Ruby on Rails
 
 #### Installation
 Mac OS has Ruby preloaded. If your on a windows machine you'll have to download Ruby and Rails gem on to your computer. Follow the install directions here: [Ruby and Rails]('https://forwardhq.com/help/installing-ruby-windows').
@@ -34,8 +36,14 @@ gem install rails
 
 
 
-Wireframe
+ Wireframe
 ![Image](/public/wireframes/API_Wireframe.png)
 
 Background-image
 ![Image](/app/assets/images/worldrefugeeday.jpg)
+
+Home Page
+![Image](/public/screenshots/home_screen.png)
+
+Data Bar Chart
+![Image](/public/screenshots/data_bar_chart.png)
