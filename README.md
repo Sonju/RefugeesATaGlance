@@ -1,6 +1,6 @@
 
 # Global Refugee API
-**An open source tool to display, track or monitor global refugee and asylum data from 2000 to 2014.**
+**An open source tool to display, track and monitor global refugee and asylum data from 2000 to 2014.**
 
 I created the RESTful Refugee API because there is not a refugee and asylum functional API. I used The United Nations High Commissioner for Refugees (UNHCR) refugee and asylum dataset because the international community believes the UN's data collection practices are reliable.
 ###### Data Source: [UNHCR](http://data.un.org/Data.aspx?d=UNHCR&f=indID:Type-Ref)
